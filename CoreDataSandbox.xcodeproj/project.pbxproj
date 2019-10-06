@@ -15,6 +15,7 @@
 		49E0D92623497DC2005C02E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E0D92523497DC2005C02E9 /* Preview Assets.xcassets */; };
 		49E0D92923497DC2005C02E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E0D92723497DC2005C02E9 /* LaunchScreen.storyboard */; };
 		49E0D93423497DC2005C02E9 /* CoreDataSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0D93323497DC2005C02E9 /* CoreDataSandboxTests.swift */; };
+		49E0D9432349975C005C02E9 /* CoreDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0D9422349975C005C02E9 /* CoreDataContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		49E0D92F23497DC2005C02E9 /* CoreDataSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E0D93323497DC2005C02E9 /* CoreDataSandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSandboxTests.swift; sourceTree = "<group>"; };
 		49E0D93523497DC2005C02E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E0D9422349975C005C02E9 /* CoreDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,7 @@
 				49E0D94023497E94005C02E9 /* Sources */,
 				49E0D93F23497E79005C02E9 /* Storyboards */,
 				49E0D92A23497DC2005C02E9 /* Info.plist */,
-				49E0D91D23497DC0005C02E9 /* CoreDataSandbox.xcdatamodeld */,
+				49E0D9412349973F005C02E9 /* CoreData */,
 				49E0D92423497DC2005C02E9 /* Preview Content */,
 			);
 			path = CoreDataSandbox;
@@ -132,6 +134,15 @@
 				49E0D93E23497E44005C02E9 /* Views */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		49E0D9412349973F005C02E9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				49E0D91D23497DC0005C02E9 /* CoreDataSandbox.xcdatamodeld */,
+				49E0D9422349975C005C02E9 /* CoreDataContainer.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +249,7 @@
 				49E0D91A23497DC0005C02E9 /* AppDelegate.swift in Sources */,
 				49E0D91C23497DC0005C02E9 /* SceneDelegate.swift in Sources */,
 				49E0D92123497DC0005C02E9 /* ContentView.swift in Sources */,
+				49E0D9432349975C005C02E9 /* CoreDataContainer.swift in Sources */,
 				49E0D91F23497DC0005C02E9 /* CoreDataSandbox.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
