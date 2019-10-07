@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49E03C64234B5FFB007B5F35 /* UserManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E03C63234B5FFB007B5F35 /* UserManagedObject.swift */; };
 		49E0D91A23497DC0005C02E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0D91923497DC0005C02E9 /* AppDelegate.swift */; };
 		49E0D91C23497DC0005C02E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0D91B23497DC0005C02E9 /* SceneDelegate.swift */; };
 		49E0D91F23497DC0005C02E9 /* CoreDataSandbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49E0D91D23497DC0005C02E9 /* CoreDataSandbox.xcdatamodeld */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49E03C63234B5FFB007B5F35 /* UserManagedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagedObject.swift; sourceTree = "<group>"; };
 		49E0D91623497DC0005C02E9 /* CoreDataSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E0D91923497DC0005C02E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49E0D91B23497DC0005C02E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,7 +89,6 @@
 				49E0D94023497E94005C02E9 /* Sources */,
 				49E0D93F23497E79005C02E9 /* Storyboards */,
 				49E0D92A23497DC2005C02E9 /* Info.plist */,
-				49E0D9412349973F005C02E9 /* CoreData */,
 				49E0D92423497DC2005C02E9 /* Preview Content */,
 			);
 			path = CoreDataSandbox;
@@ -131,6 +132,7 @@
 			children = (
 				49E0D91923497DC0005C02E9 /* AppDelegate.swift */,
 				49E0D91B23497DC0005C02E9 /* SceneDelegate.swift */,
+				49E0D9412349973F005C02E9 /* CoreData */,
 				49E0D93E23497E44005C02E9 /* Views */,
 			);
 			path = Sources;
@@ -141,6 +143,7 @@
 			children = (
 				49E0D91D23497DC0005C02E9 /* CoreDataSandbox.xcdatamodeld */,
 				49E0D9422349975C005C02E9 /* CoreDataContainer.swift */,
+				49E03C63234B5FFB007B5F35 /* UserManagedObject.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				49E0D92123497DC0005C02E9 /* ContentView.swift in Sources */,
 				49E0D9432349975C005C02E9 /* CoreDataContainer.swift in Sources */,
 				49E0D91F23497DC0005C02E9 /* CoreDataSandbox.xcdatamodeld in Sources */,
+				49E03C64234B5FFB007B5F35 /* UserManagedObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
